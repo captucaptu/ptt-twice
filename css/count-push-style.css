@@ -1,0 +1,35 @@
+.push{
+	display: block;
+	line-height: 1.5em;
+	color: #222;
+}
+.hint{
+	font-size: 0.8em;
+	color: #aaa;
+}
+.floor{
+	display: inline-block;
+	min-width: 4em;
+	color: #3fa83f;
+}
+.mark{
+	display: inline-block;
+	min-width: 4em;
+	color: #3485e1;
+}
+.highlight{
+	background-color: #fffb8b;
+}
+#submit-btn{
+	display: block;
+	width: 4em;
+	height: 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	background-color: #3485e1;
+}
+.test{
+	margin-top: 20px;
+}
