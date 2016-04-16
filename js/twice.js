@@ -84,11 +84,11 @@ $(document).ready(function(){
 						
 						
 						// console.log(booker);
-						// if(booker[10]=="TRUE"){
-						// 	$('li.check').text("處理狀況：款項已確認收到。");
-						// }else{
-						// 	$('li.check').text("處理狀況：已填單，待確認款項與資料。");
-						// }
+						if(booker[18]=="TRUE"){
+							$('li.check').text("處理狀況：款項已確認收到。");
+						}else{
+							$('li.check').text("處理狀況：已填單，待確認款項與資料。");
+						}
 						//$('li.trackno-1').text("郵件編號："+booker[15]);
 						//$('li.trackno-2').text("郵件編號(海報)："+booker[16]);
 						//$('li.check').text("PTT 帳號："+booker[1]);
